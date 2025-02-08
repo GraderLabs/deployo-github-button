@@ -10,14 +10,14 @@ const Index = () => {
             Deploy to Vercel
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Generate a deployment URL for your GitHub repository and deploy it to Vercel with one click.
+            Deploy your GitHub repository to Vercel with custom environment variables.
           </p>
         </div>
         
         <URLInput />
         
         <footer className="text-sm text-gray-500 pt-8">
-          Paste your GitHub repository URL and click generate to create a Vercel deployment link.
+          Paste your GitHub repository URL, add any required environment variables, and click deploy.
         </footer>
       </div>
     </div>
